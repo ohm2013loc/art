@@ -1,6 +1,6 @@
 # Makefile
 
-CFLAGS="-Wall"
+CFLAGS=-Wall -pedantic
 
 all: artpoll artdmxtest white-colour multi-midi stars police artmonitor
 
